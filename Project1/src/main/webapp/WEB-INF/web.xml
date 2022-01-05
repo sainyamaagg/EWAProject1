@@ -1,0 +1,123 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<display-name>SignUp</display-name>
+  	<description>This is only for Sign Up</description>
+  	<servlet-class>signin.SignUp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description>This is only for login</description>
+  	<servlet-class>signin.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BuyersSide</servlet-name>
+  	<display-name>BuyersSide</display-name>
+  	<description>This is only for buyers side</description>
+  	<servlet-class>property.BuyersSide</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OwnersSide</servlet-name>
+  	<display-name>OwnersSide</display-name>
+  	<description>This is only for owners side</description>
+  	<servlet-class>property.OwnersSide</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MainOwners</servlet-name>
+  	<display-name>MainOwners</display-name>
+  	<description>This is main page of owners</description>
+  	<servlet-class>property.MainOwners</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditOwners</servlet-name>
+  	<display-name>EditOwners</display-name>
+  	<description>This is for editing</description>
+  	<servlet-class>property.EditOwners</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteOwners</servlet-name>
+  	<display-name>DeleteOwners</display-name>
+  	<description></description>
+  	<servlet-class>property.DeleteOwners</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AfterAddingproperty</servlet-name>
+  	<display-name>AfterAddingproperty</display-name>
+  	<description></description>
+  	<servlet-class>property.AfterAddingproperty</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateOwners</servlet-name>
+  	<display-name>UpdateOwners</display-name>
+  	<description>This servlet is for updation</description>
+  	<servlet-class>property.UpdateOwners</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cookie</servlet-name>
+  	<display-name>Cookie</display-name>
+  	<description>Only for session management</description>
+  	<servlet-class>signin.Cookie</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PageHitCounter</servlet-name>
+  	<display-name>PageHitCounter</display-name>
+  	<description>This checks the number of visits of the client in our website</description>
+  	<servlet-class>signin.PageHitCounter</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>VisitServlet</servlet-name>
+  	<display-name>VisitServlet</display-name>
+  	<description></description>
+  	<servlet-class>signin.VisitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BuyersSide</servlet-name>
+  	<url-pattern>/BuyersSide</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OwnersSide</servlet-name>
+  	<url-pattern>/OwnersSide</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MainOwners</servlet-name>
+  	<url-pattern>/MainOwners</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditOwners</servlet-name>
+  	<url-pattern>/EditOwners</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteOwners</servlet-name>
+  	<url-pattern>/DeleteOwners</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AfterAddingproperty</servlet-name>
+  	<url-pattern>/AfterAddingproperty</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateOwners</servlet-name>
+  	<url-pattern>/UpdateOwners</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cookie</servlet-name>
+  	<url-pattern>/Cookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>VisitServlet</servlet-name>
+  	<url-pattern>/VisitServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
